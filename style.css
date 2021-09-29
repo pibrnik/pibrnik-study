@@ -315,7 +315,7 @@
 }
 .thumbnail{
     width:70%;
-    max-width: 15em
+    max-width: 20em
 }
 
 @media (min-width: 800px) {
@@ -346,5 +346,6 @@
     }
     .thumbnail{
         width:100%;
+        max-width: 20emş;
     }
 }
