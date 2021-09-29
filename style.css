@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Bebas+Neue&display=swap');
+            html {
+                scroll-behavior: smooth;
+            }
+            body {
+                margin:0;
+            }
+            h1{
+                font-family: Bebas Neue;
+                color: darkseagreen;
+                font-size:3em;
+            }
+            h2{
+                font-family: Bebas Neue;
+                color: darkseagreen;
+                font-size:1.4em;
+            }
+            h3{
+                font-family: Barlow;
+                color: dimgrey;
+                font-size:1.8em;
+            }
+            .event_t{
+                font-family: Bebas Neue;
+                color: grey;
+                font-size: 1.4em;
+
+            }
+            .event{
+                font-family: Barlow;
+                color: grey;
+                font-size: 1em;
+                text-align: left;
+
+            }
+                .announcment{
+                font-family: Barlow;
+                color: grey;
+                font-size: 1em;
+                text-align: center;
+
+            }
+            .info{
+                font-family: Barlow;
+                color: grey;
+                font-size: 1em;
+                text-align: center;
+                padding-bottom: 0;
+                padding-top: 0;
+
+            }
+            p {
+                font-family: Barlow;
+                color: darkseagreen;
+                font-size: 1em;
+            }
+            .footer{
+                background-color: lightgray;
+                padding-top: 1em;
+                margin-top:-1em;
+                padding-left: 3em;
+                padding-bottom: 1em;
+                color: gray;
+                text-align: right;
+                padding-right: 3em;
+                font-size:1em;
+                margin-block-end: 0em;
+            }
+            .fullwidth {
+	           float: left;
+	           width: 100%;
+                }
+            .date{
+                font-family: Barlow;
+                color: darkseagreen;
+                font-size: 1em;
+                text-align: left:
+
+            }
+            .hbr{
+                font-family: Barlow;
+                color: black;
+                font-size:3em;
+            }
+            .center {
+                text-align: center;
+                align-content: center;
+            }
+            .izbira {
+                font-family: Barlow;
+                font-size:0.9em;
+                color: black;
+
+            }
+            .izbor {
+                font-family: Barlow;
+                font-size:1em;
+                color: black;
+                padding-left: 2em;
+                padding-right: 1em;
+
+            }
+            select{
+                height:6vmin;
+                background-color: whitesmoke;
+                width: 4em;
+                border-color:grey;
+            }
+            a {
+                font-family: Barlow;
+                font-size:1em;
+                color:darkseagreen;
+                text-decoration: none;
+            }
+            .b1 {
+	font-family: Barlow;
+	border: 0px;
+	color: grey;
+	font-size: 18px;
+	background-color: whitesmoke;
+	width: 20%;
+	height: 6vmin;
+	margin-bottom: 2vmin;
+}
+            .b1:hover {
+	font-family: Barlow;
+	border: 0px;
+	color: grey;
+	font-size: 18px;
+	background-color: whitesmoke;
+	width: 20%;
+                opacity: 80%;
+                cursor:pointer;
+	height: 6vmin;
+	margin-bottom: 2vmin;
+}
+                .b4 {
+	font-family: Barlow;
+	border: 0px;
+	color: grey;
+	font-size: 18px;
+	background-color: whitesmoke;
+	width: 10%;
+	height: 6vmin;
+	margin-bottom: 2vmin;
+}
+            .b4:hover {
+	font-family: Barlow;
+	border: 0px;
+	color: grey;
+	font-size: 18px;
+	background-color: whitesmoke;
+	width: 10%;
+                opacity: 80%;
+                cursor:pointer;
+	height: 6vmin;
+	margin-bottom: 2vmin;
+}
+
+            .b3 {
+	font-family: Barlow;
+	border: 0px;
+	color: white;
+	font-size: 18px;
+	background-color: darkgray;
+	width: 20%;
+	height: 6vmin;
+	margin-bottom: 2vmin;
+}
+            .b3:hover {
+	font-family: Barlow;
+	border: 0px;
+	color: white;
+	font-size: 18px;
+	background-color: darkgray;
+	width: 20%;
+	height: 6vmin;
+                opacity: 80%;
+                cursor:pointer;
+	margin-bottom: 2vmin;
+}
+            .b2 {
+	font-family: Barlow;
+	border: 0px;
+	color: white;
+	font-size: 18px;
+	background-color: darkseagreen;
+	width: 40%;
+	height: 6vmin;
+	margin-bottom: 2vmin;
+}
+            .b2:hover {
+	font-family: Barlow;
+	border: 0px;
+	color: white;
+	font-size: 18px;
+	background-color: darkseagreen;
+	width: 40%;
+                opacity: 80%;
+                cursor: pointer;
+	height: 6vmin;
+	margin-bottom: 2vmin;
+}
+            @media (max-width: 800px) {
+                .b1 {
+	font-family: Barlow;
+	border: 0px;
+	color: grey;
+	font-size: 1em;
+	background-color: whitesmoke;
+	width: 40%;
+	height: 6vmin;
+	margin-bottom: 2vmin;
+}
+                .b4 {
+	font-family: Barlow;
+	border: 0px;
+	color: grey;
+	font-size: 1em;
+	background-color: whitesmoke;
+	width: 40%;
+	height: 6vmin;
+	margin-bottom: 2vmin;
+}
+            .b2 {
+	font-family: Barlow;
+	border: 0px;
+	color: white;
+	font-size: 1em;
+	background-color: darkseagreen;
+	width: 80%;
+	height: 6vmin;
+	margin-bottom: 2vmin;
+}
+                .b3 {
+	font-family: Barlow;
+	border: 0px;
+	color: white;
+	font-size: 1em;
+	background-color: darkgray;
+	width: 80%;
+	height: 6vmin;
+	margin-bottom: 2vmin;
+}
+            }
+
+                .i1{
+                    width:15.5em;
+                    height: 1.5em;
+                    background-color: whitesmoke;
+                    border: 2px solid gray;
+                    border-radius: 2em;
+                    padding-left: 1em;
+                    font-family: Barlow;
+                    color: gray;
+                    height:2em;
+                    font-size: 1em;
+                }
+                .i2{
+                    width:7em;
+                    height: 1.5em;
+                    background-color: whitesmoke;
+                    border: 2px solid gray;
+                    border-radius: 2em;
+                    padding-left: 1em;
+                    font-family: Barlow;
+                    color: gray;
+                    height:2em;
+                    font-size: 1em;
+                }
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+}
+
+.left {
+	margin-left: 0px;
+	margin-right: auto;
+	display: block;
+	text-align: left;
+}
+
+.right {
+	margin-left: auto;
+	margin-right: 0px;
+	display: block;
+	text-align: right;
+}
+
+.normal {
+	float: left;
+	width: 80%;
+	padding-left: 10%;
+}
+
+.small {
+    margin-top: 0.5em;
+}
+
+.medium {
+    margin-top: 1em;
+}
+
+.large{
+    margin-top: 2em;
+}
+.image{
+    width:80%;
+    max-width: 20em
+}
+.thumbnail{
+    width:70%;
+    max-width: 15em
+}
+
+@media (min-width: 800px) {
+	.thirds {
+		float: left;
+		width: 33.3%;
+	}
+    .twothirds {
+		float: left;
+		width: 66.6%;
+	}
+    .sixth{
+        float:left;
+        width:16.6%;
+    }
+	.size {
+		width: 95%;
+	}
+@media (max-width: 800px) {
+    .normal{
+        width:90%;
+    }
+    .announcment{
+        text-align: center;
+    }
+    .image{
+        width:100%;
+    }
+    .thumbnail{
+        width:100%;
+    }
+}
