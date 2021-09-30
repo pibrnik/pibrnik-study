@@ -56,6 +56,15 @@
                 color: darkseagreen;
                 font-size: 1em;
             }
+            ul{
+                list-style-type: square;
+            }
+
+            li {
+                font-family: Barlow;
+                color: grey;
+                font-size: 1em;
+            }
             .footer{
                 background-color: lightgray;
                 padding-top: 1em;
@@ -165,9 +174,9 @@
 	color: white;
 	font-size: 18px;
 	background-color: darkgray;
-	width: 20%;
-	height: 6vmin;
+	width: fit-content;
 	margin-bottom: 2vmin;
+    padding: 0.8em 1.5em 0.8em 1.5em;
 }
             .b3:hover {
 	font-family: Barlow;
@@ -175,8 +184,8 @@
 	color: white;
 	font-size: 18px;
 	background-color: darkgray;
-	width: 20%;
-	height: 6vmin;
+	width: fit-content;
+
                 opacity: 80%;
                 cursor:pointer;
 	margin-bottom: 2vmin;
